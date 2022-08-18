@@ -1,0 +1,144 @@
+*,
+*::after,
+*::before {
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(17, 3, 3);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 20px;
+}
+
+.logo h1 {
+    font-size: 45px;
+    color: #706b84;
+    font-size: italic;
+    font-family: 'Alice', serif;
+    cursor: pointer;
+}
+
+.header {
+    background-color: #271c27;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px 2px  #706b84;
+}
+
+.search input {
+    font-size: 26px;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding-left: 7px;
+    background-color: #706b84;
+    color: #271c27;;
+}
+
+.search input::placeholder {
+    color: #8f859f;
+}
+
+.card-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:  #271c27;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px 2px #706b84;
+    min-height: 30%;
+    font-size: 30px;
+    color: #847584;
+}
+
+.card {
+    background-color: #706b84;
+    margin: 5px;
+    padding: 5px 5px 10px 5px;
+    border-radius: 10px;
+    width: 270px;
+    transition: .2s all;
+    text-align: center;
+    overflow: hidden;
+} 
+
+.card img {
+    width: 190px;
+    height: 270px;
+    border-radius: 8px;
+}
+
+.card p {
+    color: #cad2c5;
+    font-size: 20px;
+    margin: 7px 0px 7px 0px;
+}
+
+.card span {
+    color: #fca311;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+ .heart {
+    font-size: 30px;
+    text-align: end;
+    cursor: pointer;
+}
+
+.modal {
+    height: 30px;
+    width: 70px;
+    background-color: rgb(17, 3, 3);
+    position: fixed;
+}
+
+.button1 {
+   height: 37px;
+   font-size: 20px;
+   color: #8f859f;
+   background-color: #706b84;
+   font-size: 26px;
+   border: 2px solid gray;
+   border-radius: 8px;
+}
+
+.button1:active{
+    background-color:#271c27;
+}
+
+.reset {
+    height: 37px;
+    font-size: 20px;
+    color: #8f859f;
+    background-color: #706b84;
+    font-size: 26px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    display: none;
+    margin-left: 322px;
+}
+
+.reset:active {
+    background-color: #271c27;
+}
